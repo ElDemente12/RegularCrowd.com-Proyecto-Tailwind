@@ -1,6 +1,6 @@
 import { Titulo } from '../Components/Titulo.jsx';
 import { Content } from '../Components/Content.jsx';
-import Foto from '../assets/DSC_0030.jpg';
+import Foto from '../assets/Carrousel3.jpg';
 
 export function Home() {
     return (

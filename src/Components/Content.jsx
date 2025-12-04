@@ -4,7 +4,7 @@ export function Content({ Foto, Title, Text, children, className = "", buttonLin
     return (
         <motion.div
             className={`h-screen flex items-center justify-start px-10 pl-64 pr-64 ${className}`}
-            initial={{ opacity: 0, x: reverse ? -100 : 100, filter: "blur(10px)" }}
+            initial={{ opacity: 0, x: reverse ? -10 : 10, filter: "blur(5px)" }}
             whileInView={{ opacity: 1, x: 0, filter: "blur(0px)" }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1, ease: "easeOut" }}
@@ -18,7 +18,7 @@ export function Content({ Foto, Title, Text, children, className = "", buttonLin
             )}
             <div className={`${Foto ? "ml-48" : ""}`}>
                 <h1 className="text-4xl font-bold">{Title}</h1>
-                <p className="">{Text}</p>
+                <p className="text-xl font-extralight">{Text}</p>
                 {children ? (
                     <div className={`mt-10 flex gap-8 items-start ${reverse ? 'flex-row-reverse' : ''}`}>
                         <div className="flex-shrink-0" style={{ width: "500px" }}>
