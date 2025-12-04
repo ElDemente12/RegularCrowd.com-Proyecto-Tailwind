@@ -1,21 +1,28 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
-import { Titulo } from './Titulo.jsx'
-import { Header } from './Header.jsx'
-import { Content } from './Content.jsx'
+import { Header } from './Components/Header.jsx'
+import { Home } from './Pages/Home.jsx'
+import { Discography } from './Pages/Discography.jsx'
+import { Members } from './Pages/Members.jsx'
+import { News } from './Pages/News.jsx'
+import { Shop } from './Pages/Shop.jsx'
+import { PressKit } from './Pages/PressKit.jsx'
 import './index.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-  <>
-    <body>
-      <Header />
-      <Titulo />
-      <div className="flex flex-col justify-center gap-10">
-        <Content />
-      </div>
-    </body>
-  </>
+  <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/discography" element={<Discography />} />
+      <Route path="/members" element={<Members />} />
+      <Route path="/news" element={<News />} />
+      <Route path="/shop" element={<Shop />} />
+      <Route path="/press-kit" element={<PressKit />} />
+    </Routes>
+  </BrowserRouter>
 )
