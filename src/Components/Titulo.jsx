@@ -19,7 +19,7 @@ export function Titulo({ tipo = "imagen", texto = "Regular Crowd" }) {
             ) : (
                 <motion.h1
                     style={{ scale }}
-                    className="text-white text-6xl font-bold"
+                    className="text-white text-6xl font-bold font-dirty"
                 >
                     {texto}
                 </motion.h1>

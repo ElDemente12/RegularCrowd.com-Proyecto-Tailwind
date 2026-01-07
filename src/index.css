@@ -16,3 +16,10 @@ body {
     background-color: black;
     overflow-x: hidden;
 }
+
+@font-face {
+    font-family: 'DirtyGrungeFiesta';
+    src: url('/fonts/DirtyGrungeFiesta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
