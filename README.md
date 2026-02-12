@@ -2,11 +2,11 @@
 
 Bienvenido al repositorio oficial de la página web de **Regular Crowd**, una banda de rock alternativo.
 
-## 🎸 Acerca del Proyecto
+## Acerca del Proyecto
 
 Esta es la página web oficial de Regular Crowd, desarrollada con React y Tailwind CSS. El sitio incluye información sobre la banda, discografía, miembros, noticias, tienda de merchandising y un press kit para medios.
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Requisitos Previos
 
@@ -34,7 +34,7 @@ Esta es la página web oficial de Regular Crowd, desarrollada con React y Tailwi
 
 ¡Listo! La aplicación debería estar corriendo en tu navegador.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/
@@ -44,7 +44,7 @@ src/
 └── index.css       # Estilos globales
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **React** - Librería de JavaScript para construir interfaces de usuario
 - **Vite** - Herramienta de desarrollo rápida
@@ -52,14 +52,14 @@ src/
 - **Framer Motion** - Librería de animaciones
 - **React Router** - Navegación entre páginas
 
-## 📄 Licencia
+## Licencia
 
 © 2026 Regular Crowd. Todos los derechos reservados.
 
 Desarrollado por Esteban Linares Abad.
 
-## 🔗 Enlaces
+## Enlaces
 
 - [Spotify](https://open.spotify.com/artist/3Bu8jFhb9mt3REAQSwGimR)
-- [Instagram](https://www.instagram.com/regularcrowdband/)
-- [GitHub](https://github.com/Esteban200603/RegularCrowd.com)
+- [Instagram](https://www.instagram.com/regular_crowd/)
+- [GitHub](https://github.com/ElDemente12)
