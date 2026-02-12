@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
 import { Header } from './Components/Header.jsx'
+import { Footer } from './Components/Footer.jsx'
 import { Home } from './Pages/Home.jsx'
 import { Discography } from './Pages/Discography.jsx'
 import { Members } from './Pages/Members.jsx'
@@ -26,5 +27,6 @@ root.render(
       <Route path="/shop" element={<Shop />} />
       <Route path="/press-kit" element={<PressKit />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
 )

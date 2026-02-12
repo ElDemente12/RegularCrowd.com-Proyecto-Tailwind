@@ -32,7 +32,7 @@ export function Discography() {
                 <Content
                     Title="Welcome to..."
                     Text="'YA NO PUEDO VIVIR DE OTRA MANERA'"
-                    className="flex justify-end pr-64 bg-gradient-to-b from-black via-gray-900 to-black"
+                    className="lg:flex lg:justify-end lg:pr-64 bg-gradient-to-b from-black via-gray-900 to-black"
                     pitch="Un himno de liberación y autenticidad. 
                     Esta canción captura la esencia de vivir sin máscaras, con un ritmo potente que te hará sentir cada palabra. 
                     Uno de nuestros singles favoritos, el cual será el primer single de nuestro nuevo EP, titulado 'FIUUUUM!'"
@@ -80,7 +80,7 @@ export function Discography() {
                 <Content
                     Title="Welcome to..."
                     Text="'Regular Days'"
-                    className="flex justify-end pr-64 bg-gradient-to-b from-black via-gray-900 to-black"
+                    className="lg:flex lg:justify-end lg:pr-64 bg-gradient-to-b from-black via-gray-900 to-black"
                     pitch="Una reflexión sobre la belleza de lo cotidiano. 
                     Con un estilo cañero y letras que resuenan con la vida diaria,
                     esta canción hace que descubras lo que sentimos como banda al pasar el día a día. Con esta canción lo que queremos
