@@ -13,7 +13,7 @@ export function Content({ Foto, Title, Text, children, className = "", buttonLin
                 <img
                     src={Foto}
                     alt="Regular Crowd imagenes"
-                    className="w-full lg:w-5/12 rounded-lg border-2 p-2 bg-slate-300 hover:scale-110 transition duration-300 shadow-xl"
+                    className="w-auto max-h-[550px] lg:max-h-[650px] object-contain rounded-lg border-2 p-2 bg-slate-300 hover:scale-110 transition duration-300 shadow-xl"
                 />
             )}
             <div className={`w-full lg:w-1/2 flex flex-col justify-center ${!Foto ? "lg:w-full text-center" : ""}`}>

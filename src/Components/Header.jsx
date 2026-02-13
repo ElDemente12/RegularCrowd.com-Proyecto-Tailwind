@@ -15,7 +15,7 @@ export function Header() {
     ];
 
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md mix-blend-screen bg-black/50 lg:bg-transparent">
+        <header className={`fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-black/50 lg:bg-transparent ${isMenuOpen ? '' : 'mix-blend-screen'}`}>
             <div className="flex justify-between items-center p-4 lg:justify-center">
                 {/* Mobile Hamburger Button */}
                 <button
@@ -30,7 +30,7 @@ export function Header() {
             <ul className={`
                 flex flex-col lg:flex-row gap-10 p-4 text-white
                 fixed lg:static top-[60px] left-0 w-full lg:w-auto h-screen lg:h-auto
-                bg-black/90 lg:bg-transparent backdrop-blur-xl lg:backdrop-blur-none
+                bg-black lg:bg-transparent isolation-auto
                 transition-all duration-300 ease-in-out z-40
                 ${isMenuOpen ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0 lg:translate-x-0 lg:opacity-100"}
                 items-center justify-start pt-20 lg:pt-0 lg:items-center lg:justify-center
